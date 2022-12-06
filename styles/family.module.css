@@ -1,0 +1,180 @@
+.parentContainer{
+    /* border: 2px solid black; */
+    width: 95vw;
+    height: 95vh;
+    display: flex; 
+    margin: 10px 15px;    
+    gap: 10px;
+    
+}
+
+
+.familyTree{
+    border: 1px solid rgb(180, 180, 173);
+    width: 25vw !important;
+    border-radius: 10px;
+    overflow-x: hide;
+}
+
+.familyDetails{
+  /* border: 10px solid red; */
+  border: 1px solid rgb(211, 211, 204);
+  width: 70vw !important;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.familyTreeContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 5px solid red; */
+    height: 100%;
+    gap: 5px;
+}
+
+.familyTreeSearch{
+    /* border: 1px solid red; */
+    width: 100% !important;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.folder{
+    background-color: rgb(233, 223, 223);
+    padding: 2px;
+    width: 190px;
+    border: 1px solid rgb(236, 227, 227);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-between;
+}
+
+.addICons{
+    /* border: 1px solid red; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addICons > span{
+    margin: 0 3px;
+}
+
+.inputContainer_input{
+    max-width: 130px;
+}
+
+.folderName{
+    /* border: 1px solid yellowgreen; */
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* .folder :hover{
+    background-color: aquamarine;
+    border: 1px solid red;
+    width: 100%;
+} */
+
+.familyTreeFolder{
+    width: 100% !important;
+    /* border: 1px solid red; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: scroll;
+    align-items: flex-start;
+}
+
+.familyTreebuttonBox{
+    width: 100% !important;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.mainCard{
+    border: 1px solid #eee1e1;
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    border-radius: 10px ;
+    margin: 10px 30px;
+    /* justify-content: space-between; */
+}
+
+.profileCard{
+    /* border: 2px solid red; */
+    height: 150px;
+    width: 150px;
+    margin: 10px 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: antiquewhite;
+    background-color: rgb(238, 107, 107);
+}
+
+.profileNameAns{
+    font-size: 17px;
+    font-weight: lighter;
+    /* border: 1px solid red; */
+}
+
+.profileName{
+    font-size: 17px;
+    
+    font-weight: 400
+}
+
+.parentDetail{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;    
+}
+
+.familyDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw !important;
+    /* border: 3px solid red; */
+    overflow-y: scroll;
+}
+
+.popoverStyle{
+    /* border: 1px solid red; */
+    padding: 10px 10px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.popoverStyle:hover{
+ font-weight: bold;
+}
