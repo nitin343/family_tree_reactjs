@@ -38,7 +38,7 @@ function FamilyDetails(props) {
                             )
                         })
                     ): (
-                    <></>
+                    <div>Select/Add Family Member in Family Tree</div>
                         )
                     }
                     </div>

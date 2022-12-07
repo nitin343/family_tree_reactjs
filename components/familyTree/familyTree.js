@@ -10,7 +10,7 @@ function FamilyTree({explorerdata , handleInsertNode , handleDeleteNode}) {
 
     return (
         <div className={`${styles.familyTreeContainer}`}>
-          <div></div>
+          <div className={`${styles.treeName}`}>Family Tree</div>
           <div className={`${styles.familyTreeFolder}`}>
             <FamilyTreeFolder handleDeleteNode={handleDeleteNode} handleInsertNode={handleInsertNode} explorerdata={explorerdata} />
           </div>
